@@ -3,12 +3,11 @@
 </script>
 
 <template>
-  <div class="min-h-screen bg-gray-100 flex items-start justify-center p-4">
-    <div class="rounded-2xl w-full p-8">
-      <div class="flex flex-col md:flex-row gap-6">
+  <div class="min-h-screen  bg-indigo-100  items-center justify-center px-40 py-10">
+      <div class="p-5 bg-white shadow-xl rounded-2xl flex flex-col md:flex-row gap-6">
         <div class="flex justify-center items-center">
-          <div class="size-80 rounded-full overflow-hidden border-2 border-green-200">
-            <img src="/perfil.png" alt="Foto de Perfil" class="object-cover w-full h-full" />
+          <div class="size-80 rounded-full overflow-hidden ">
+            <img src="/perfil4.png" alt="Foto de Perfil" class="object-cover w-full h-full" />
           </div>
         </div>
 
@@ -29,7 +28,7 @@
               <div class="text-sm text-black">Projetos</div>
             </div>
             <div class="flex-1 w-full bg-blue-500/10 text-white rounded-xl p-6 text-center shadow hover:bg-blue-300 transition">
-              <div class="text-3xl text-blue-500 font-bold mb-1">6+</div>
+              <div class="text-3xl text-blue-500 font-bold mb-1">9+</div>
               <div class="text-sm text-black ">Anos de Experiência</div>
             </div>
             <div class="flex-1 w-full bg-purple-500/10 text-white rounded-xl p-6 text-center shadow hover:bg-purple-300 transition">
@@ -51,11 +50,10 @@
             <span class="bg-white font-bold text-gray-800 text-sm px-3 py-1 rounded-full border-2 border-blue-300">Typescript</span>
             <span class="bg-white font-bold text-gray-800 text-sm px-3 py-1 rounded-full border-2 border-blue-300">PHP</span>
 
-            <!-- Produto -->
             <span class="bg-white font-bold text-gray-800 text-sm px-3 py-1 rounded-full border-2 border-green-300">Gestão de Backlog</span>  
             <span class="bg-white font-bold text-gray-800 text-sm px-3 py-1 rounded-full border-2 border-green-300">Descoberta de Produtos</span>          
 
-            <!-- Analista -->
+     
             <span class="bg-white font-bold text-gray-800 text-sm px-3 py-1 rounded-full border-2 border-yellow-300">Kanban</span>
             <span class="bg-white font-bold text-gray-800 text-sm px-3 py-1 rounded-full border-2 border-yellow-300">Scrum</span>
             <span class="bg-white font-bold text-gray-800 text-sm px-3 py-1 rounded-full border-2 border-yellow-300">Power BI</span>
@@ -63,8 +61,6 @@
             <span class="bg-white font-bold text-gray-800 text-sm px-3 py-1 rounded-full border-2 border-yellow-300">Linux</span>
             </div>
 
-
-          <!-- Botões de contato -->
           <div class="flex flex-wrap gap-4">
             <NuxtLink to="/contato" class="bg-teal-500 text-black px-6 py-2 rounded-xl shadow hover:bg-teal-100 transition">
               Contato
@@ -84,7 +80,7 @@
         </p>
         </div>
         <div class="mt-7 space-y-6">
-        <div class="bg-white rounded-3xl shadow-lg cursor-pointer transition hover:shadow-lg p-3">
+        <div class="bg-white rounded-2xl shadow-lg cursor-pointer transition hover:shadow-lg p-3">
         <details class="group">
         <summary class="text-2xl font-semibold text-gray-800 cursor-pointer flex justify-between items-center">
         Sistema de Gestão Acadêmica
@@ -139,7 +135,15 @@
     </div>
     </div>
     </div>
+    <div class="flex-col p-20 w-full bg-gray-200 mx-auto text-center">
+      <div>
+        <h1 class="text-2xl font-bold">Vamos Trabalhar Juntos?
+      </h1>
+      <p class="text-base mt-5">Sempre aberto para discutir novos projetos desafiadores e oportunidades de criar impacto real. Se você busca um profissional com visão estratégica e foco em resultados, vamos conversar!</p>
+      </div>
+      
+      <div><p></p><p></p></div>
 
-  </div>
+    </div>
   </template>
   

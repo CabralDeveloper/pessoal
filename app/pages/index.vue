@@ -8,7 +8,7 @@ const projetos = [
     titulo: 'SGCAD - Sistema de Gerenciamento e Controle da Administração',
     descricao:
     'Plataforma integrada para gestão pública, com controle de entradas e saídas de pessoas e veículos, administração de contratos, gestão de empresas, processos de pagamento, fluxo financeiro e compras nacionais e internacionais.',
-    data: 'Agosto/2025',
+    data: '2024 - 2025',
     participantes: 8,
     tecnologias: ['Nuxt', 'Vue', 'Node.js', 'MongoDB', 'TypeScript', 'Docker'],
     impacto:
@@ -461,7 +461,7 @@ const projetos = [
             <div class="mb-1 text-2xl font-bold text-teal-600">
               50+
             </div>
-            <div class="text-xs text-neutral-800">
+            <div class="text-sm text-neutral-800">
               Projetos
             </div>
           </div>
@@ -470,7 +470,7 @@ const projetos = [
             <div class="mb-1 text-2xl font-bold text-orange-600">
               9+
             </div>
-            <div class="text-xs text-neutral-800">
+            <div class="text-sm text-neutral-800">
               Anos de Experiência
             </div>
           </div>
@@ -479,7 +479,7 @@ const projetos = [
             <div class="mb-1 text-2xl font-bold text-amber-900">
               3+
             </div>
-            <div class="text-xs text-neutral-800">
+            <div class="text-sm text-neutral-800">
               Times Liderados
             </div>
           </div>
@@ -488,7 +488,7 @@ const projetos = [
             <div class="mb-1 text-2xl font-bold text-red-600">
               +20
             </div>
-            <div class="text-xs text-neutral-800">
+            <div class="text-sm text-neutral-800">
               Certificados
             </div>
           </div>
@@ -496,29 +496,29 @@ const projetos = [
 
         <div class="flex flex-wrap gap-3">
           <span class="rounded-full bg-teal-500 px-2 py-1 text-sm text-white ">Nuxt</span>
-          <span class="rounded-full bg-teal-500 px-2 py-1 text-sm text-white  ">Vue.js</span>
-          <span class="rounded-full bg-teal-500 px-2 py-1 text-sm text-white  ">Node.js</span>
-          <span class="rounded-full bg-teal-500 px-2 py-1 text-sm text-white  ">MongoDB</span>
-          <span class="rounded-full bg-teal-500 px-2 py-1 text-sm text-white  ">SQL</span>
-          <span class="rounded-full bg-teal-500 px-2 py-1 text-sm text-white  ">Typescript</span>
-          <span class="rounded-full bg-teal-500 px-2 py-1 text-sm text-white  ">PHP</span>
-          <span class="rounded-full bg-teal-500 px-2 py-1 text-sm text-white  ">Gestão de Backlog</span>
-          <span class="rounded-full bg-teal-500 px-2 py-1 text-sm text-white  ">Descoberta de Produtos</span>
-          <span class="rounded-full bg-teal-500 px-2 py-1 text-sm text-white  ">Kanban</span>
-          <span class="rounded-full bg-teal-500 px-2 py-1 text-sm text-white  ">Scrum</span>
-          <span class="rounded-full bg-teal-500 px-2 py-1 text-sm text-white  ">Power BI</span>
-          <span class="rounded-full bg-teal-500 px-2 py-1 text-sm text-white  ">Metabase</span>
-          <span class="rounded-full bg-teal-500 px-2 py-1 text-sm text-white ">Linux</span>
+          <span class="rounded-full bg-teal-500 px-2 py-1 text-base text-white  ">Vue.js</span>
+          <span class="rounded-full bg-teal-500 px-2 py-1 text-base text-white  ">Node.js</span>
+          <span class="rounded-full bg-teal-500 px-2 py-1 text-base text-white  ">MongoDB</span>
+          <span class="rounded-full bg-teal-500 px-2 py-1 text-base text-white  ">SQL</span>
+          <span class="rounded-full bg-teal-500 px-2 py-1 text-base text-white  ">Typescript</span>
+          <span class="rounded-full bg-teal-500 px-2 py-1 text-base text-white  ">PHP</span>
+          <span class="rounded-full bg-teal-500 px-2 py-1 text-base  text-white ">Gestão de Backlog</span>
+          <span class="rounded-full bg-teal-500 px-2 py-1 text-base text-white  ">Descoberta de Produtos</span>
+          <span class="rounded-full bg-teal-500 px-2 py-1 text-base text-white  ">Kanban</span>
+          <span class="rounded-full bg-teal-500 px-2 py-1 text-base text-white  ">Scrum</span>
+          <span class="rounded-full bg-teal-500 px-2 py-1 text-base text-white  ">Power BI</span>
+          <span class="rounded-full bg-teal-500 px-2 py-1 text-base text-white  ">Metabase</span>
+          <span class="rounded-full bg-teal-500 px-2 py-1 text-base text-white ">Linux</span>
         </div>
 
         <div class="flex flex-wrap gap-4">
-          <NuxtLink to="/contato" class="rounded-xl bg-teal-500 px-3 py-2 text-white shadow transition hover:bg-orange-600">
+          <NuxtLink class="rounded-xl bg-amber-700 px-3 py-2 text-white shadow transition hover:bg-orange-600">
             Contato
           </NuxtLink>
-          <NuxtLink to="https://www.linkedin.com/in/gustavo-costa-cabral/" class="rounded-xl border border-orange-600/60 bg-white px-3 py-2 text-neutral-800 shadow transition hover:bg-orange-600/50">
+          <NuxtLink to="https://www.linkedin.com/in/gustavo-costa-cabral/" class="rounded-xl border border-amber-700 bg-white px-3 py-2 text-neutral-800 shadow transition hover:bg-orange-600/50">
             LinkedIn
           </NuxtLink>
-          <NuxtLink to="/curriculo" class="rounded-xl border border-orange-600/60 bg-white px-3 py-2 text-neutral-800 shadow transition hover:bg-orange-600/50">
+          <NuxtLink class="rounded-xl border border-amber-700 bg-white px-3 py-2 text-neutral-800 shadow transition hover:bg-orange-600/50">
             CV/Resumo
           </NuxtLink>
         </div>
@@ -541,26 +541,49 @@ const projetos = [
         class="cursor-pointer rounded-2xl bg-slate-50 p-3 shadow-lg transition hover:shadow-xl"
       >
         <details class="group">
-          <summary class="flex w-full cursor-pointer items-center justify-between text-xl font-semibold text-neutral-800">
-            {{ projeto.titulo }}
-            <span class="transition-transform group-open:rotate-180">&#9660;</span>
-          </summary>
-          <div class="mt-6 flex flex-col gap-6 md:flex-row">
-            <div class="flex-1 space-y-3">
-              <p class="text-lg text-amber-700">
-                {{ projeto.descricao }}
-              </p>
-              <p class="text-sm text-neutral-500">
-                Data: {{ projeto.data }}
-              </p>
-              <p class="text-sm text-neutral-500">
-                Participantes: {{ projeto.participantes }}
-              </p>
-              <div class="mt-2 flex flex-wrap gap-2">
-                <span v-for="tech in projeto.tecnologias" :key="tech" class="rounded-full bg-teal-200 px-3 py-1 text-sm text-neutral-800">{{ tech }}</span>
+          <summary class="flex w-full cursor-pointer items-center justify-between">
+            <div class="flex flex-col">
+              <span class="text-xl font-semibold text-neutral-800">
+                {{ projeto.titulo }}
+              </span>
+              <div class="flex gap-4 text-sm text-neutral-500">
+                <p>{{ projeto.data }}</p>
+                <p>Participantes: {{ projeto.participantes }}</p>
               </div>
             </div>
-            <div class="flex-1 space-y-4 rounded-lg bg-teal-50 p-4">
+            <span class="text-neutral-800 transition-transform group-open:rotate-180">
+              &#9660;
+            </span>
+          </summary>
+
+          <div class="mt-6 flex flex-col gap-6">
+            <div class="flex flex-col gap-6 md:flex-row">
+              <div class="flex flex-1 flex-col">
+                <p class="text-lg text-amber-700">
+                  {{ projeto.descricao }}
+                </p>
+
+                <div class="mt-2 flex flex-wrap gap-2">
+                  <span
+                    v-for="tech in projeto.tecnologias"
+                    :key="tech"
+                    class="rounded-full bg-teal-200 px-3 py-1 text-sm text-neutral-800"
+                  >
+                    {{ tech }}
+                  </span>
+                </div>
+              </div>
+
+              <div class="flex flex-1 items-center justify-center">
+                <img
+                  src=""
+                  alt="Imagem do sistema"
+                  class="w-full max-w-md rounded-lg shadow"
+                >
+              </div>
+            </div>
+
+            <div class="flex w-full flex-col space-y-4 rounded-lg bg-teal-50 p-4">
               <div>
                 <h4 class="mb-2 font-semibold text-neutral-800">
                   Impacto Gerado

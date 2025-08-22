@@ -4,7 +4,7 @@ import { name, version } from './package.json'
 const { PRODUCTION, SITE_URL, DEV_URL, DEV_KEY, DEV_CERT } = process.env
 
 export default defineNuxtConfig({
-  modules: ['@nuxt/fonts', '@nuxt/image', '@nuxtjs/tailwindcss',  '@nuxtjs/seo', '@vueuse/nuxt', '@nuxt/icon'],
+  modules: ['@nuxt/fonts', '@nuxt/image', '@nuxtjs/tailwindcss', '@nuxtjs/seo', '@vueuse/nuxt', '@nuxt/icon'],
   devtools: { enabled: true },
   app: { head: { templateParams: { separator: '•' } } },
   site: {
